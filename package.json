@@ -1,0 +1,25 @@
+{
+  "name": "great-circle-service",
+  "version": "1.0.0",
+  "description": "球面地球模型大圆航线采样与航向解释后端（API + CLI）",
+  "type": "module",
+  "main": "dist/server.js",
+  "bin": {
+    "gc": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js",
+    "test": "tsc -p tsconfig.json && node --experimental-strip-types --test test/*.test.ts",
+    "demo": "tsc -p tsconfig.json && node --experimental-strip-types scripts/demo.ts",
+    "cli": "node --experimental-strip-types src/cli.ts"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2"
+  }
+}

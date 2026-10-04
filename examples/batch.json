@@ -1,0 +1,7 @@
+{
+  "routes": [
+    { "from": { "lat": 0, "lon": 0 }, "to": { "lat": 0, "lon": 90 }, "radius": 1, "segments": 2 },
+    { "from": { "lat": 39.9, "lon": 116.4 }, "to": { "lat": 31.2, "lon": 121.5 }, "radius": 6371, "segments": 4 },
+    { "from": { "lat": 0, "lon": 0 }, "to": { "lat": 0, "lon": 180 }, "radius": 1, "segments": 2 }
+  ]
+}
